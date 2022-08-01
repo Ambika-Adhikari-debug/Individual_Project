@@ -42,7 +42,7 @@ export default function Register() {
         })
         .catch();
 
-
+//code for sending email
         emailjs.sendForm('service_dyfp1sb', 'template_0ntjxwv',e.target,'user_2DlavtV8tyH0QjlBm4S5p')
         .then(res=>{
           console.log(res)
