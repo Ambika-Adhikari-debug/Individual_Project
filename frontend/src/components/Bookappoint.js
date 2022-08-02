@@ -46,7 +46,7 @@ export default function Bookappoint() {
 
 
 
-
+//axios to send appointment data
     axios.post("http://localhost:90/appointment/insert", adata, config)
     .then(result12=>{
         console.log(result12.data.success)
