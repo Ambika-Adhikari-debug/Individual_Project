@@ -15,7 +15,7 @@ export default function Myappointment() {
     
 
 
-    
+//to show the appointment details in frontend
     useEffect(()=>{
         axios.get("http://localhost:90/appointment/myappoint")
         .then(result=>{
